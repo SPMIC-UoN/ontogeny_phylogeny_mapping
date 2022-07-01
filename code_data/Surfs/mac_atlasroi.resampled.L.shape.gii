@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GIFTI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:noNamespaceSchemaLocation="http://brainvis.wustl.edu/caret6/xml_schemas/GIFTI_Caret.xsd"
+       Version="1"
+       NumberOfDataArrays="1">
+   <MetaData>
+      <MD>
+         <Name><![CDATA[AnatomicalStructurePrimary]]></Name>
+         <Value><![CDATA[CortexLeft]]></Value>
+      </MD>
+      <MD>
+         <Name><![CDATA[ParentProvenance]]></Name>
+         <Value><![CDATA[/Users/ellie/Documents/XTRACT/bp_mapping_2k/Surfs/mac_atlasroi.resampled.L.shape.gii:
+/Applications/workbench/bin_macosx64/../macosx64_apps/wb_command.app/Contents/MacOS/wb_command -metric-resample /Users/ellie/Documents/XTRACT/bp_mapping_2k/Surfs/mac_atlasroi.32k.L.shape.gii /Users/ellie/Documents/XTRACT/bp_mapping_2k/Surfs/S1200.L.sphere.32k_fs_LR.surf.gii /Users/ellie/Documents/XTRACT/bp_mapping_2k/Surfs/resample_sphere.L.surf.gii BARYCENTRIC /Users/ellie/Documents/XTRACT/bp_mapping_2k/Surfs/mac_atlasroi.resampled.L.shape.gii
+
+]]></Value>
+      </MD>
+      <MD>
+         <Name><![CDATA[ProgramProvenance]]></Name>
+         <Value><![CDATA[Connectome Workbench
+Type: Command Line Application
+Version: 1.4.2
+Qt Compiled Version: 5.7.0
+Qt Runtime Version: 5.7.0
+Commit: 092b7f2f7dfab0f9ea7cbb6c1db2e5dffd2c1045
+Commit Date: 2020-01-07 17:24:23 -0600
+Compiled with OpenMP: YES
+Compiler: clang++ (/usr/local/clang/4.0.0/bin)
+Compiler Version: 4.0.0
+Compiled Debug: NO
+Operating System: Apple OSX
+]]></Value>
+      </MD>
+      <MD>
+         <Name><![CDATA[Provenance]]></Name>
+         <Value><![CDATA[/Applications/workbench/bin_macosx64/../macosx64_apps/wb_command.app/Contents/MacOS/wb_command -metric-math 'round(m)' /Users/ellie/Documents/XTRACT/bp_mapping_2k/Surfs/mac_atlasroi.resampled.L.shape.gii -var m /Users/ellie/Documents/XTRACT/bp_mapping_2k/Surfs/mac_atlasroi.resampled.L.shape.gii]]></Value>
+      </MD>
+      <MD>
+         <Name><![CDATA[WorkingDirectory]]></Name>
+         <Value><![CDATA[/Users/ellie/Documents/XTRACT/bp_mapping_2k]]></Value>
+      </MD>
+   </MetaData>
+   <LabelTable>
+      <Label Key="0" Red="1" Green="1" Blue="1" Alpha="0"><![CDATA[???]]></Label>
+   </LabelTable>
+<DataArray Intent="NIFTI_INTENT_NORMAL"
+           DataType="NIFTI_TYPE_FLOAT32"
+           ArrayIndexingOrder="RowMajorOrder"
+           Dimensionality="1"
+           Dim0="10242"
+           Encoding="GZipBase64Binary"
+           Endian="LittleEndian"
+           ExternalFileName=""
+           ExternalFileOffset="0">
+   <MetaData>
+      <MD>
+         <Name><![CDATA[Name]]></Name>
+         <Value><![CDATA[deformed_Atlas_Cortex_ROI]]></Value>
+      </MD>
+   </MetaData>
+   <Data>eJzt3UluhDAQAED/bL7G0yMlAhnGgI0XICqkOiRxd3uTmXBgQpg+YVeY9v/2+/f5msY46ktvrfu/O29hp3b4btN97udr7+cOhoxrUy85xz1rzVfHOkuJTvOZPAtekr9X7t5nRou+tszXarwt7ivJ+IIc2/iSuYljsud10/40JqxjzsZXvM7b3CfjPWt31sejfbO3r1JjuvMzwVNkr8PA+Tra513nYfCeGFVze3Vft45r17tGz/xH59TT8raeh9T96OqeLLkX1eapzXE2viufMWpjr8RlxYSy9tltQ3673LE1jc0YIwAAAAAAAAAAAAAAAAAAAAAAAAAAeU7fExlfF99DefcYgWdqfT60fEdtba743LwrR3xuj4qtjevRvrRtbZsr+zoVE/9u2QqJvfG2dzPH/U5+1rgwfwD8aXWe1uapvUfVfP/AyLjSmJL/j3Pn3n0TAAAA3m/9IOb72Xlt7t2a0bONEc/n55rJcTd+FhLP5+F8H9Qt6dPqO0BTazmt26TWPatGrp32OfNV+12iS6pPfb6cMT3CMuh24v3eon/LWj8kz18y/o3QPmfve+9T3DHmeL1G1xxSZ2StQXVGrRMAAAAAvMcPQdB70w==</Data>
+</DataArray>
+</GIFTI>
